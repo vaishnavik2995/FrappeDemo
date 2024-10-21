@@ -1,0 +1,12 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1    localhost
+255.255.255.255    broadcasthost
+::1             localhost
+
+# going to http://meeting.dev:8000 will launch the frappe site
+127.0.0.1    meeting.dev

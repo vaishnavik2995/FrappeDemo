@@ -1,0 +1,246 @@
+2024-10-08 14:06:12,574 DEBUG cd frappe_bench && python3 -m venv env
+2024-10-08 14:06:14,301 DEBUG cd frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-10-08 14:06:15,931 DEBUG cd frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet wheel
+2024-10-08 14:06:16,909 LOG Getting frappe
+2024-10-08 14:06:16,909 DEBUG cd frappe_bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-10-08 14:06:19,747 LOG Installing frappe
+2024-10-08 14:06:19,747 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe 
+2024-10-08 14:06:41,726 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && yarn install --check-files
+2024-10-08 14:06:48,899 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-08 14:06:48,899 DEBUG cd frappe_bench && bench build
+2024-10-08 14:06:49,026 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench build
+2024-10-08 14:07:04,727 LOG setting up backups
+2024-10-08 14:07:08,383 LOG backups were set up
+2024-10-08 14:07:08,384 INFO Bench frappe_bench initialized
+2024-10-08 14:07:19,185 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-08 14:07:19,836 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-08 14:07:19,838 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-08 14:07:19,844 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-08 14:07:19,859 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-08 14:07:45,428 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-app frappe_app
+2024-10-08 14:07:45,432 LOG creating new app frappe_app
+2024-10-08 14:08:14,630 LOG Installing frappe_app
+2024-10-08 14:08:14,631 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe_app 
+2024-10-08 14:08:15,785 DEBUG bench build --app frappe_app
+2024-10-08 14:08:15,873 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench build --app frappe_app
+2024-10-08 14:08:17,248 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-08 14:08:38,439 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 14:13:28,141 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 15:45:14,783 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 15:45:44,152 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 16:57:31,976 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:02:37,575 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench update
+2024-10-08 17:02:38,601 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2024-10-08 17:02:48,906 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && git fetch upstream --unshallow
+2024-10-08 17:03:45,641 LOG pulling frappe
+2024-10-08 17:03:45,642 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && git pull  upstream develop
+2024-10-08 17:03:46,426 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && find . -name "*.pyc" -delete
+2024-10-08 17:03:46,876 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-10-08 17:03:47,525 LOG Installing frappe
+2024-10-08 17:03:47,526 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe 
+2024-10-08 17:03:48,992 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && yarn install --check-files
+2024-10-08 17:03:49,944 LOG Installing frappe_app
+2024-10-08 17:03:49,944 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe_app 
+2024-10-08 17:04:25,035 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:04:40,610 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:04:53,621 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:06:02,502 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench config get-site-config frappe_site
+2024-10-08 17:06:02,507 WARNING /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench config get-site-config frappe_site executed with exit code 2
+2024-10-08 17:06:19,533 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench config --help
+2024-10-08 17:07:28,303 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench version
+2024-10-08 17:08:23,253 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench config set-common-config -c mariadb_version 11.5.2
+2024-10-08 17:08:23,259 WARNING /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench config set-common-config -c mariadb_version 11.5.2 executed with exit code 1
+2024-10-08 17:16:17,674 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:16:48,284 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:17:01,942 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-08 17:18:16,965 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site --verbose
+2024-10-08 17:18:40,124 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site --verbose
+2024-10-08 17:23:07,364 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench update
+2024-10-08 17:23:08,723 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2024-10-08 17:23:19,054 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && git fetch upstream --unshallow
+2024-10-08 17:24:15,738 LOG pulling frappe
+2024-10-08 17:24:15,740 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && git pull  upstream develop
+2024-10-08 17:24:16,578 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && find . -name "*.pyc" -delete
+2024-10-08 17:24:16,886 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-10-08 17:24:17,471 LOG Installing frappe
+2024-10-08 17:24:17,471 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe 
+2024-10-08 17:24:18,851 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe && yarn install --check-files
+2024-10-08 17:24:19,609 LOG Installing frappe_app
+2024-10-08 17:24:19,610 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/frappe_app 
+2024-10-08 17:26:31,387 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site mysite.localhost
+2024-10-08 17:30:02,325 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --version
+2024-10-08 17:31:00,169 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench env info
+2024-10-08 18:03:38,772 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --verbose --site all backup
+2024-10-09 11:04:30,980 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 11:18:02,631 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 11:30:30,624 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 12:00:01,546 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --verbose --site all backup
+2024-10-09 12:28:27,583 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 12:34:31,502 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 13:13:49,680 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 13:24:47,426 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:08:55,111 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:13:48,133 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:21:18,673 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:32:46,596 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:32:58,708 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:38:42,178 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frapp_site
+2024-10-09 15:45:34,057 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:47:06,341 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 15:52:49,408 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench drop-site frappe-site
+2024-10-09 15:53:05,377 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench drop-site frappe_site
+2024-10-09 15:53:34,421 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench list-sites
+2024-10-09 15:53:58,361 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench drop-site mysite.localhost
+2024-10-09 15:54:40,761 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench drop-site mysite.localhost --force
+2024-10-09 15:55:50,474 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench drop-site mysite.localhost --force
+2024-10-09 15:56:42,556 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench newsite frappe_site
+2024-10-09 15:56:48,074 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 16:06:58,705 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 16:11:48,973 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 16:15:54,220 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-09 16:15:54,557 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-09 16:15:54,568 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-09 16:15:54,573 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-09 16:15:54,574 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-09 16:26:11,643 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-09 18:00:00,950 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --verbose --site all backup
+2024-10-10 11:23:31,818 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 11:23:32,099 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 11:23:32,103 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 11:23:32,106 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 11:23:32,110 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 11:24:23,974 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 11:26:10,519 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 12:39:06,012 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:05:05,072 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:05:11,743 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:05:25,390 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:15:27,741 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --version
+2024-10-10 13:20:01,135 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:20:16,203 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:28:06,452 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site frappe_site
+2024-10-10 13:30:32,624 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 13:30:32,933 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 13:30:32,934 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 13:30:32,939 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 13:30:32,949 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 13:35:23,702 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench list-sites
+2024-10-10 13:35:47,204 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site library.localhost
+2024-10-10 13:37:51,242 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 13:37:51,529 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 13:37:51,531 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 13:37:51,545 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 13:37:51,549 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 13:38:29,984 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --site library.localhost add-to-hosts
+2024-10-10 13:38:37,142 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 13:38:37,426 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 13:38:37,426 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 13:38:37,428 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 13:38:37,430 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 13:39:08,985 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 13:39:09,264 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 13:39:09,265 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 13:39:09,268 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 13:39:09,280 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 15:23:09,697 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 15:23:09,973 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 15:23:09,983 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 15:23:09,987 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 15:23:09,995 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 15:29:12,102 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --site frappe_site install-app frappe_app
+2024-10-10 15:32:48,048 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 15:32:48,321 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 15:32:48,321 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 15:32:48,328 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 15:32:48,343 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 16:07:25,100 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 16:07:25,379 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 16:07:25,385 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 16:07:25,386 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 16:07:25,398 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 16:13:20,660 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench use frappe_site
+2024-10-10 16:14:22,076 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-10 16:14:22,353 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-10 16:14:22,374 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-10 16:14:22,374 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-10 16:14:22,375 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-10 16:24:53,155 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site try_site
+2024-10-14 10:52:27,003 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 10:52:27,386 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 10:52:27,388 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 10:52:27,421 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 10:52:27,421 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 13:11:39,097 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-app meeting
+2024-10-14 13:11:39,102 LOG creating new app meeting
+2024-10-14 13:12:19,513 LOG Installing meeting
+2024-10-14 13:12:19,514 DEBUG cd /Users/vaishnavi/Documents/try_frappe/frappe_bench && /Users/vaishnavi/Documents/try_frappe/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /Users/vaishnavi/Documents/try_frappe/frappe_bench/apps/meeting 
+2024-10-14 13:12:20,694 DEBUG bench build --app meeting
+2024-10-14 13:12:20,803 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench build --app meeting
+2024-10-14 13:12:22,635 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-14 13:32:08,077 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench new-site meeting.dev
+2024-10-14 13:34:22,872 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --site meeting.dev install-app meeting
+2024-10-14 13:36:48,424 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --site meeting.dev set-config developer_mode 1
+2024-10-14 13:45:05,982 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 13:45:06,282 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 13:45:06,282 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 13:45:06,283 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 13:45:06,284 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 13:54:56,237 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench use meeting
+2024-10-14 13:55:12,448 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench use meeting.dev
+2024-10-14 14:01:24,122 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 14:01:24,427 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 14:01:24,428 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 14:01:24,434 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 14:01:24,448 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 14:03:54,962 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 14:03:55,240 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 14:03:55,244 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 14:03:55,244 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 14:03:55,263 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 15:39:09,523 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 15:39:09,831 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 15:39:09,831 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 15:39:09,836 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 15:39:09,836 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 15:51:43,863 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 15:51:44,172 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 15:51:44,172 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 15:51:44,172 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 15:51:44,203 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 16:17:03,296 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench restart
+2024-10-14 16:17:03,309 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-14 16:17:08,732 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 16:17:09,016 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 16:17:09,016 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 16:17:09,024 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 16:17:09,024 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 16:18:34,800 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 16:18:35,075 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 16:18:35,076 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 16:18:35,096 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 16:18:35,108 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 16:19:25,870 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-14 16:19:26,143 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-14 16:19:26,151 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-14 16:19:26,157 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-14 16:19:26,170 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-14 18:00:01,636 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --verbose --site all backup
+2024-10-15 10:23:01,350 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench start
+2024-10-15 10:23:01,643 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench serve --port 8000
+2024-10-15 10:23:01,643 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench worker
+2024-10-15 10:23:01,658 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench watch
+2024-10-15 10:23:01,659 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench schedule
+2024-10-15 12:00:43,810 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --verbose --site all backup
+2024-10-15 18:00:01,413 INFO /Users/vaishnavi/Documents/try_frappe/myvenv/bin/bench --verbose --site all backup

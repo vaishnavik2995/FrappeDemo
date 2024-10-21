@@ -1,0 +1,8 @@
+{
+ "db_name": "_1dcd75f29d89f0f3",
+ "db_password": "7bJQwELAmC8zRnOC",
+ "db_type": "mariadb",
+ "db_user": "_1dcd75f29d89f0f3",
+ "developer_mode": 1,
+ "host_name" : "http://meeting.dev:8000"
+}
